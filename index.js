@@ -1,10 +1,10 @@
 const express = require("express");
 const app = express();
+app.use(express.static('dist'));
 const cors = require('cors')
 
 app.use(express.json());
 
-app.use(express.static('dist'));
 
 app.use(cors())
 
