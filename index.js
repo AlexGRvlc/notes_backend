@@ -1,3 +1,4 @@
+require('dotenv').config(); // Cargar las variables del archivo .env
 const express = require("express");
 const app = express();
 app.use(express.static('dist'));

@@ -1,3 +1,7 @@
 node_modules
 
-requests
+# Ignorar carpeta requests
+requests/
+
+# Environment files
+.env
