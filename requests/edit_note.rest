@@ -1,7 +1,0 @@
-PUT http://localhost:3001/api/notes/1
-Content-Type: application/json
-
-{
-    "content": "Nueva nota actualizada",
-    "important": true
-}
