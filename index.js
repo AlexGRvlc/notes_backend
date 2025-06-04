@@ -103,6 +103,7 @@ app.put('/api/notes/:id', (req, res) => {
 });
 
 const PORT = process.env.PORT || 3001;
+console.log(`App está escuchando en el puerto: ${PORT}`);
 app.listen(PORT, () => {
   console.log(`Server Running at PORT ${PORT}`);
 });
